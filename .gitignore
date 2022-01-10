@@ -1,0 +1,22 @@
+# Generic ignores
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.pyc
+*.vscode
+._*
+.DS_Store
+__pycache__
+
+
+# Directory (contents) ignores
+config/tts
+
+# Specific file ignores
+config/secrets.yaml
+config/known_devices.yaml
+config/webostv.conf
+
+# Specific keeps
+!.gitkeep
